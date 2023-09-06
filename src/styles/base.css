@@ -5,22 +5,9 @@
 /* colors to be used throughout app */
 
 :root {
-    /* colors for active items */
-    --clr-blue-light: #42a5f5;
-    --clr-blue-dark: #5d7fb2;
-    /* colors for cards */
-    --clr-popout-light: #eee;
-    --clr-popout-dark: #2d2c2c;
-    /* colors for text */
     --clr-text-primary-light: rgba(0, 0, 0, 0.87);
     --clr-text-secondary-light: rgba(0, 0, 0, 0.6);
     --clr-text-tertiary-light: rgba(0, 0, 0, 0.38);
-    --clr-text-primary-dark: rgba(255, 255, 255, 0.87);
-    --clr-text-secondary-dark: rgba(255, 255, 255, 0.6);
-    --clr-text-tertiary-dark: rgba(255, 255, 255, 0.38);
-    /* colors for hover states */
-    --clr-blue-light-hover: #128ef2;
-    --clr-blue-dark-hover: #476695;
 }
 
 body {
@@ -82,27 +69,3 @@ h1, h2, h3, h4, h5, h6 {
         max-width: 960px;
     }
 }
-
-
-/* dark mode changes */
-
-/* @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #121212;
-    }
-    ::selection {
-        background-color: var(--clr-blue-dark);
-    }
-    img {
-      filter: brightness(.8) contrast(1.2);
-    } */
-    /* .primary {
-        color: var(--clr-text-primary-dark);
-    }
-    .secondary {
-        color: var(--clr-text-secondary-dark);
-    }
-    .tertiary {
-        color: var(--clr-text-tertiary-dark);
-    }
-} */

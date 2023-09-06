@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-group {
+    position: absolute;
+    bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+button {
+    width: 8rem;
+    align-self: flex-end;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 0.4375em 1em;
+    min-width: 2.25em;
+    min-height: 2.25em;
+    color: #fff;
+}
+
+button:hover, button:focus {
+    scale: 1.1;
+    outline: none;
+}
+
+.easy {
+    background-color: #4caf50;
+}
+
+.medium {
+    background-color: #42a5f5;
+}
+
+.hard {
+    background-color: #ff9800;
+}
+
+.advanced {
+    background-color: #d32f2f;
+}
+
+.phrases {
+    background-color: #9c27b0;
+}
+
+.reset {
+    background-color: #121212;
+}
