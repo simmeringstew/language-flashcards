@@ -1,0 +1,108 @@
+/* font import inter */
+
+@import url('https://api.fonts.coollabs.io/css2?family=Roboto:wght@400;700&display=swap');
+
+/* colors to be used throughout app */
+
+:root {
+    /* colors for active items */
+    --clr-blue-light: #42a5f5;
+    --clr-blue-dark: #5d7fb2;
+    /* colors for cards */
+    --clr-popout-light: #eee;
+    --clr-popout-dark: #2d2c2c;
+    /* colors for text */
+    --clr-text-primary-light: rgba(0, 0, 0, 0.87);
+    --clr-text-secondary-light: rgba(0, 0, 0, 0.6);
+    --clr-text-tertiary-light: rgba(0, 0, 0, 0.38);
+    --clr-text-primary-dark: rgba(255, 255, 255, 0.87);
+    --clr-text-secondary-dark: rgba(255, 255, 255, 0.6);
+    --clr-text-tertiary-dark: rgba(255, 255, 255, 0.38);
+    /* colors for hover states */
+    --clr-blue-light-hover: #128ef2;
+    --clr-blue-dark-hover: #476695;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+::selection {
+    background-color: var(--clr-blue-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+/* text colors */
+
+.primary {
+    color: var(--clr-text-primary-light);
+}
+
+.secondary {
+    color: var(--clr-text-secondary-light);
+}
+
+.tertiary {
+    color: var(--clr-text-tertiary-light);
+}
+
+/* container sizing for app */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+
+/* dark mode changes */
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+    }
+    ::selection {
+        background-color: var(--clr-blue-dark);
+    }
+    img {
+      filter: brightness(.8) contrast(1.2);
+    } */
+    /* .primary {
+        color: var(--clr-text-primary-dark);
+    }
+    .secondary {
+        color: var(--clr-text-secondary-dark);
+    }
+    .tertiary {
+        color: var(--clr-text-tertiary-dark);
+    }
+} */
