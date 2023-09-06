@@ -1,6 +1,9 @@
 
 
-const Card = () => {
+const Card = ({ words }) => {
+
+    console.log(words);
+
     return (
         <></>
     );
