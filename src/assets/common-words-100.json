@@ -1,0 +1,1005 @@
+[
+  {
+    "dutch": [
+      "ik"
+    ],
+    "english": [
+      "I",
+      "me"
+    ],
+    "id": 0
+  },
+  {
+    "dutch": [
+      "je"
+    ],
+    "english": [
+      "you",
+      "your"
+    ],
+    "id": 1
+  },
+  {
+    "dutch": [
+      "het"
+    ],
+    "english": [
+      "it",
+      "the"
+    ],
+    "id": 2
+  },
+  {
+    "dutch": [
+      "de"
+    ],
+    "english": [
+      "the"
+    ],
+    "id": 3
+  },
+  {
+    "dutch": [
+      "is"
+    ],
+    "english": [
+      "is"
+    ],
+    "id": 4
+  },
+  {
+    "dutch": [
+      "dat"
+    ],
+    "english": [
+      "that (That is good food)"
+    ],
+    "id": 5
+  },
+  {
+    "dutch": [
+      "een"
+    ],
+    "english": [
+      "a",
+      "an"
+    ],
+    "id": 6
+  },
+  {
+    "dutch": [
+      "niet"
+    ],
+    "english": [
+      "not"
+    ],
+    "id": 7
+  },
+  {
+    "dutch": [
+      "en"
+    ],
+    "english": [
+      "and"
+    ],
+    "id": 8
+  },
+  {
+    "dutch": [
+      "wat"
+    ],
+    "english": [
+      "what"
+    ],
+    "id": 9
+  },
+  {
+    "dutch": [
+      "van"
+    ],
+    "english": [
+      "from",
+      "of"
+    ],
+    "id": 10
+  },
+  {
+    "dutch": [
+      "we"
+    ],
+    "english": [
+      "we",
+      "us"
+    ],
+    "id": 11
+  },
+  {
+    "dutch": [
+      "in"
+    ],
+    "english": [
+      "at",
+      "in"
+    ],
+    "id": 12
+  },
+  {
+    "dutch": [
+      "ze"
+    ],
+    "english": [
+      "them",
+      "they",
+      "she"
+    ],
+    "id": 13
+  },
+  {
+    "dutch": [
+      "op"
+    ],
+    "english": [
+      "at",
+      "on"
+    ],
+    "id": 14
+  },
+  {
+    "dutch": [
+      "te"
+    ],
+    "english": [
+      "at",
+      "to",
+      "too"
+    ],
+    "id": 15
+  },
+  {
+    "dutch": [
+      "hij"
+    ],
+    "english": [
+      "he",
+      "him"
+    ],
+    "id": 16
+  },
+  {
+    "dutch": [
+      "zijn",
+      "we zijn",
+      "hij zijn"
+    ],
+    "english": [
+      "its",
+      "we are",
+      "his"
+    ],
+    "id": 17
+  },
+  {
+    "dutch": [
+      "er"
+    ],
+    "english": [
+      "there"
+    ],
+    "id": 18
+  },
+  {
+    "dutch": [
+      "maar"
+    ],
+    "english": [
+      "but"
+    ],
+    "id": 19
+  },
+  {
+    "dutch": [
+      "me"
+    ],
+    "english": [
+      "me"
+    ],
+    "id": 20
+  },
+  {
+    "dutch": [
+      "die"
+    ],
+    "english": [
+      "that (I have a hat that matches)",
+      "which",
+      "who",
+      "those"
+    ],
+    "id": 21
+  },
+  {
+    "dutch": [
+      "ik heb",
+      "je hebt",
+      "we hebben",
+      "hij heeft"
+    ],
+    "english": [
+      "I have",
+      "you have",
+      "we have",
+      "he has"
+    ],
+    "id": 22
+  },
+  {
+    "dutch": [
+      "voor"
+    ],
+    "english": [
+      "for"
+    ],
+    "id": 23
+  },
+  {
+    "dutch": [
+      "met"
+    ],
+    "english": [
+      "with"
+    ],
+    "id": 24
+  },
+  {
+    "dutch": [
+      "als"
+    ],
+    "english": [
+      "as"
+    ],
+    "id": 25
+  },
+  {
+    "dutch": [
+      "ik ben",
+      "je bent",
+      "we zijn",
+      "hij is"
+    ],
+    "english": [
+      "I am",
+      "you are",
+      "we are",
+      "he is"
+    ],
+    "id": 26
+  },
+  {
+    "dutch": [
+      "was"
+    ],
+    "english": [
+      "was"
+    ],
+    "id": 27
+  },
+  {
+    "dutch": [
+      "mijn"
+    ],
+    "english": [
+      "my"
+    ],
+    "id": 28
+  },
+  {
+    "dutch": [
+      "u",
+      "jij"
+    ],
+    "english": [
+      "you"
+    ],
+    "id": 29
+  },
+  {
+    "dutch": [
+      "dit"
+    ],
+    "english": [
+      "this"
+    ],
+    "id": 30
+  },
+  {
+    "dutch": [
+      "aan"
+    ],
+    "english": [
+      "to"
+    ],
+    "id": 31
+  },
+  {
+    "dutch": [
+      "om"
+    ],
+    "english": [
+      "to"
+    ],
+    "id": 32
+  },
+  {
+    "dutch": [
+      "hier"
+    ],
+    "english": [
+      "here"
+    ],
+    "id": 33
+  },
+  {
+    "dutch": [
+      "naar"
+    ],
+    "english": [
+      "to",
+      "go to",
+      "visit"
+    ],
+    "id": 34
+  },
+  {
+    "dutch": [
+      "dan"
+    ],
+    "english": [
+      "then"
+    ],
+    "id": 35
+  },
+  {
+    "dutch": [
+      "zo"
+    ],
+    "english": [
+      "so"
+    ],
+    "id": 36
+  },
+  {
+    "dutch": [
+      "weet"
+    ],
+    "english": [
+      "know",
+      "knows"
+    ],
+    "id": 37
+  },
+  {
+    "dutch": [
+      "ja"
+    ],
+    "english": [
+      "yes"
+    ],
+    "id": 38
+  },
+  {
+    "dutch": [
+      "ik kan",
+      "je kunt",
+      "we kunnen",
+      "hij kan"
+    ],
+    "english": [
+      "I can",
+      "you can",
+      "we can",
+      "he can"
+    ],
+    "id": 39
+  },
+  {
+    "dutch": [
+      "geen"
+    ],
+    "english": [
+      "no"
+    ],
+    "id": 40
+  },
+  {
+    "dutch": [
+      "nog"
+    ],
+    "english": [
+      "yet",
+      "still",
+      "even"
+    ],
+    "id": 41
+  },
+  {
+    "dutch": [
+      "wel"
+    ],
+    "english": [
+      "well"
+    ],
+    "id": 42
+  },
+  {
+    "dutch": [
+      "wil"
+    ],
+    "english": [
+      "want"
+    ],
+    "id": 43
+  },
+  {
+    "dutch": [
+      "moet"
+    ],
+    "english": [
+      "must"
+    ],
+    "id": 44
+  },
+  {
+    "dutch": [
+      "goed"
+    ],
+    "english": [
+      "good"
+    ],
+    "id": 45
+  },
+  {
+    "dutch": [
+      "hem"
+    ],
+    "english": [
+      "him"
+    ],
+    "id": 46
+  },
+  {
+    "dutch": [
+      "nee"
+    ],
+    "english": [
+      "no"
+    ],
+    "id": 47
+  },
+  {
+    "dutch": [
+      "waar"
+    ],
+    "english": [
+      "where"
+    ],
+    "id": 48
+  },
+  {
+    "dutch": [
+      "nu"
+    ],
+    "english": [
+      "now"
+    ],
+    "id": 49
+  },
+  {
+    "dutch": [
+      "hoe"
+    ],
+    "english": [
+      "how"
+    ],
+    "id": 50
+  },
+  {
+    "dutch": [
+      "ga"
+    ],
+    "english": [
+      "go"
+    ],
+    "id": 51
+  },
+  {
+    "dutch": [
+      "kom"
+    ],
+    "english": [
+      "come"
+    ],
+    "id": 52
+  },
+  {
+    "dutch": [
+      "uit"
+    ],
+    "english": [
+      "from"
+    ],
+    "id": 53
+  },
+  {
+    "dutch": [
+      "gaan"
+    ],
+    "english": [
+      "go",
+      "going"
+    ],
+    "id": 54
+  },
+  {
+    "dutch": [
+      "haar"
+    ],
+    "english": [
+      "her"
+    ],
+    "id": 55
+  },
+  {
+    "dutch": [
+      "doen"
+    ],
+    "english": [
+      "do",
+      "doing"
+    ],
+    "id": 56
+  },
+  {
+    "dutch": [
+      "ook"
+    ],
+    "english": [
+      "also"
+    ],
+    "id": 57
+  },
+  {
+    "dutch": [
+      "mij"
+    ],
+    "english": [
+      "me"
+    ],
+    "id": 58
+  },
+  {
+    "dutch": [
+      "over"
+    ],
+    "english": [
+      "about"
+    ],
+    "id": 59
+  },
+  {
+    "dutch": [
+      "of"
+    ],
+    "english": [
+      "or"
+    ],
+    "id": 60
+  },
+  {
+    "dutch": [
+      "daar"
+    ],
+    "english": [
+      "there"
+    ],
+    "id": 61
+  },
+  {
+    "dutch": [
+      "zou"
+    ],
+    "english": [
+      "would",
+      "could",
+      "might",
+      "should"
+    ],
+    "id": 62
+  },
+  {
+    "dutch": [
+      "al"
+    ],
+    "english": [
+      "already"
+    ],
+    "id": 63
+  },
+  {
+    "dutch": [
+      "jullie"
+    ],
+    "english": [
+      "you",
+      "your",
+      "yours"
+    ],
+    "id": 64
+  },
+  {
+    "dutch": [
+      "zal"
+    ],
+    "english": [
+      "will"
+    ],
+    "id": 65
+  },
+  {
+    "dutch": [
+      "bij"
+    ],
+    "english": [
+      "at"
+    ],
+    "id": 66
+  },
+  {
+    "dutch": [
+      "ons"
+    ],
+    "english": [
+      "our"
+    ],
+    "id": 67
+  },
+  {
+    "dutch": [
+      "gaat"
+    ],
+    "english": [
+      "goes",
+      "go"
+    ],
+    "id": 68
+  },
+  {
+    "dutch": [
+      "meer"
+    ],
+    "english": [
+      "more"
+    ],
+    "id": 69
+  },
+  {
+    "dutch": [
+      "waarom"
+    ],
+    "english": [
+      "why"
+    ],
+    "id": 70
+  },
+  {
+    "dutch": [
+      "iets"
+    ],
+    "english": [
+      "something",
+      "thing"
+    ],
+    "id": 71
+  },
+  {
+    "dutch": [
+      "deze"
+    ],
+    "english": [
+      "this",
+      "these"
+    ],
+    "id": 72
+  },
+  {
+    "dutch": [
+      "laat"
+    ],
+    "english": [
+      "let",
+      "late"
+    ],
+    "id": 73
+  },
+  {
+    "dutch": [
+      "had"
+    ],
+    "english": [
+      "had"
+    ],
+    "id": 74
+  },
+  {
+    "dutch": [
+      "doe"
+    ],
+    "english": [
+      "do"
+    ],
+    "id": 75
+  },
+  {
+    "dutch": [
+      "ik moet",
+      "je moet",
+      "we moeten",
+      "hij moet"
+    ],
+    "english": [
+      "I must",
+      "you must",
+      "we must",
+      "he must"
+    ],
+    "id": 76
+  },
+  {
+    "dutch": [
+      "wie"
+    ],
+    "english": [
+      "who"
+    ],
+    "id": 77
+  },
+  {
+    "dutch": [
+      "jou"
+    ],
+    "english": [
+      "you",
+      "your",
+      "yours"
+    ],
+    "id": 78
+  },
+  {
+    "dutch": [
+      "alles"
+    ],
+    "english": [
+      "all",
+      "everything"
+    ],
+    "id": 79
+  },
+  {
+    "dutch": [
+      "ik denk",
+      "je denkt",
+      "we denken",
+      "hij denkt"
+    ],
+    "english": [
+      "I think",
+      "you think",
+      "we think",
+      "he thinks"
+    ],
+    "id": 80
+  },
+  {
+    "dutch": [
+      "eens"
+    ],
+    "english": [
+      "once"
+    ],
+    "id": 81
+  },
+  {
+    "dutch": [
+      "echt"
+    ],
+    "english": [
+      "really",
+      "real",
+      "trully"
+    ],
+    "id": 82
+  },
+  {
+    "dutch": [
+      "weg"
+    ],
+    "english": [
+      "way"
+    ],
+    "id": 83
+  },
+  {
+    "dutch": [
+      "door"
+    ],
+    "english": [
+      "by"
+    ],
+    "id": 84
+  },
+  {
+    "dutch": [
+      "toch"
+    ],
+    "english": [
+      "anyway"
+    ],
+    "id": 85
+  },
+  {
+    "dutch": [
+      "ik zie",
+      "je ziet",
+      "we zien",
+      "hij ziet"
+    ],
+    "english": [
+      "I see",
+      "you see",
+      "we see",
+      "he sees"
+    ],
+    "id": 86
+  },
+  {
+    "dutch": [
+      "ok\u00e9"
+    ],
+    "english": [
+      "ok"
+    ],
+    "id": 87
+  },
+  {
+    "dutch": [
+      "alleen"
+    ],
+    "english": [
+      "only"
+    ],
+    "id": 88
+  },
+  {
+    "dutch": [
+      "nou"
+    ],
+    "english": [
+      "well"
+    ],
+    "id": 89
+  },
+  {
+    "dutch": [
+      "nooit"
+    ],
+    "english": [
+      "never"
+    ],
+    "id": 90
+  },
+  {
+    "dutch": [
+      "terug"
+    ],
+    "english": [
+      "back"
+    ],
+    "id": 91
+  },
+  {
+    "dutch": [
+      "ik laat",
+      "je laat",
+      "we laten",
+      "hij laat"
+    ],
+    "english": [
+      "I let",
+      "you let",
+      "we let",
+      "he lets"
+    ],
+    "id": 92
+  },
+  {
+    "dutch": [
+      "mee"
+    ],
+    "english": [
+      "along",
+      "go along"
+    ],
+    "id": 93
+  },
+  {
+    "dutch": [
+      "even"
+    ],
+    "english": [
+      "just"
+    ],
+    "id": 94
+  },
+  {
+    "dutch": [
+      "ik hou",
+      "je houdt",
+      "we houden",
+      "hij houdt"
+    ],
+    "english": [
+      "I love",
+      "you love",
+      "we love",
+      "he loves"
+    ],
+    "id": 95
+  },
+  {
+    "dutch": [
+      "ik kom",
+      "je komt",
+      "we komen",
+      "hij komt"
+    ],
+    "english": [
+      "I come",
+      "you come",
+      "we come",
+      "he comes"
+    ],
+    "id": 96
+  },
+  {
+    "dutch": [
+      "niets"
+    ],
+    "english": [
+      "nothing"
+    ],
+    "id": 97
+  },
+  {
+    "dutch": [
+      "ik zei",
+      "je zei",
+      "we zeiden",
+      "hij zei"
+    ],
+    "english": [
+      "I said",
+      "you said",
+      "we said",
+      "he said"
+    ],
+    "id": 98
+  },
+  {
+    "dutch": [
+      "misschien"
+    ],
+    "english": [
+      "maybe"
+    ],
+    "id": 99
+  }
+]
