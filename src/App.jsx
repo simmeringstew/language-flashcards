@@ -36,11 +36,11 @@ const App = () => {
     <div className='container'>
       <Card words={words} />
       <div className='button-group'>
-        <button className='easy' onClick={() => setMode(99)}>Easy</button>
-        <button className='medium' onClick={() => setMode(249)}>Medium</button>
-        <button className='hard' onClick={() => setMode(499)}>Hard</button>
-        <button className='advanced' onClick={() => setMode(999)}>Advanced</button>
-        <button className='phrases' onClick={() => setMode(0)}>Phrases</button>
+        <button className='easy' onClick={() => setMode(100)}>Easy</button>
+        <button className='medium' onClick={() => setMode(250)}>Medium</button>
+        <button className='hard' onClick={() => setMode(500)}>Hard</button>
+        <button className='advanced' onClick={() => setMode(1000)}>Advanced</button>
+        <button className='phrases' onClick={() => setMode(1)}>Phrases</button>
         <button className='reset' onClick={() => setMode(null)}>Reset</button>
       </div>
     </div>
