@@ -9,27 +9,28 @@ const App = () => {
   const [words, setWords] = useState(null);
 
   const setMode = (gameLength) => {
-    if (gameLength === 0) {
-      // set words to the phrases
-      // shuffle them here as well
-      return;
-    }
     if (!gameLength) {
       setWords(null);
       return;
     }
-    setWords(shuffle(fullWords.slice(0, gameLength)));
+    else if (gameLength === 1) {
+      // set words to the phrases
+      // shuffle here as well
+      return;
+    } else {
+      setWords(shuffle(fullWords.slice(0, gameLength)));
+    }
   }
 
   const shuffle = (array) => {
-    let currentIndex = array.length,  randomIndex;
+    let currentIndex = array.length, randomIndex;
     while (currentIndex > 0) {
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex--;
       [array[currentIndex], array[randomIndex]] = [
         array[randomIndex], array[currentIndex]];
     }
-  return array;
+    return array;
   }
 
   return (
