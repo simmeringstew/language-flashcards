@@ -1,6 +1,6 @@
 
 
-const Card = ({ words }) => {
+const Card = ({ words, next }) => {
 
     console.log(words);
 

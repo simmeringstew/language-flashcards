@@ -19,7 +19,7 @@ const App = () => {
       return;
     } else {
       setWords(shuffle(fullWords.slice(0, gameLength)));
-    }
+    } 
   }
 
   const shuffle = (array) => {
@@ -33,9 +33,13 @@ const App = () => {
     return array;
   }
 
+  const next = () => {
+    setWords(words.slice(1));
+  }
+
   return (
     <div className='container'>
-      <Card words={words} />
+      <Card words={words} next={next} />
       <div className='button-group'>
         <button className='easy' onClick={() => setMode(100)}>Easy</button>
         <button className='medium' onClick={() => setMode(250)}>Medium</button>
