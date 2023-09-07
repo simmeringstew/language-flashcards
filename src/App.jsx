@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Card from './Card';
+import Next from './Next';
 import './styles/app.css';
 import wordList from './assets/common-words-100.json';
 
@@ -43,7 +44,8 @@ const App = () => {
 
   return (
     <div className='container'>
-      <Card words={words} next={next} />
+      <Card words={words} />
+      <Next words={words} next={next} />
       <div className='button-group'>
         <button className='easy' onClick={() => setMode(100)}>Easy</button>
         <button className='medium' onClick={() => setMode(250)}>Medium</button>

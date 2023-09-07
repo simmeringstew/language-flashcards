@@ -1,0 +1,11 @@
+.next-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.next {
+    border: 1px solid #42a5f5;
+    background-color: transparent;
+    color: var(--clr-text-primary-light);
+}

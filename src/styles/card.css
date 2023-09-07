@@ -24,7 +24,6 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    font-size: large;
     margin: 0;
 }
 .card-back {
@@ -32,16 +31,4 @@
 }
 .card-wrapper:hover .card-body {
     transform: rotateX(180deg);
-}
-
-.next-wrapper {
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-}
-
-.next {
-    border: 1px solid #42a5f5;
-    background-color: transparent;
-    color: var(--clr-text-primary-light);
 }

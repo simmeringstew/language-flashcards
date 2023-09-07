@@ -1,6 +1,6 @@
 import './styles/card.css';
 
-const Card = ({ words, next }) => {
+const Card = ({ words }) => {
 
     if (!words) {
         return;
@@ -20,9 +20,6 @@ const Card = ({ words, next }) => {
                     )}
 				</div>
 			</div>
-            <div className='next-wrapper'>
-                <button className='next' onClick={() => next()}>Next</button>
-            </div>
 		</div>
     );
 }
