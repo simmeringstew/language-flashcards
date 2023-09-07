@@ -20,6 +20,9 @@ const Card = ({ words, next }) => {
                     )}
 				</div>
 			</div>
+            <div className='next-wrapper'>
+                <button className='next' onClick={() => next()}>Next</button>
+            </div>
 		</div>
     );
 }

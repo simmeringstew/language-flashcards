@@ -34,6 +34,10 @@ const App = () => {
   }
 
   const next = () => {
+    if (words.length === 1) {
+      setWords(null);
+      return;
+    }
     setWords(words.slice(1));
   }
 
