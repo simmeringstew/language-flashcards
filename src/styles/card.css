@@ -1,6 +1,6 @@
 .card-wrapper {
     margin-top: 3rem;
-    width: 80%;
+    width: 70%;
     height: 30rem;
 }
 .card-body {
@@ -13,6 +13,10 @@
     box-shadow: 0 15px 35px rgba(0,0,0,0.2),0 5px 15px rgba(0,0,0,0.19);
 }
 .card-front, .card-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #ffffff;
     position: absolute;
     width: 100%;
@@ -21,9 +25,6 @@
     -webkit-backface-visibility: hidden;
 }
 .card-front p, .card-back p {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     margin: 0;
 }
 .card-back {
