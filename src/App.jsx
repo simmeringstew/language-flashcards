@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Card from './Card';
 import Next from './Next';
 import './styles/app.css';
-import wordList from './assets/common-words-100.json';
+import wordList from './assets/common-words.json';
 
 const App = () => {
 
