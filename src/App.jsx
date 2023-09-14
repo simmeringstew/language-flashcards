@@ -10,6 +10,11 @@ const App = () => {
 
   const fullWords = wordList;
   const [words, setWords] = useState(null);
+  const [gameLength, setGameLength] = useState(20);
+
+  const handleSliderChange = (value) => {
+    setGameLength(value);
+  }
 
   const setMode = (gameLength) => {
     if (!gameLength) {
@@ -49,9 +54,17 @@ const App = () => {
       <Card words={words} />
       <Next words={words} next={next} />
       <div className='button-group'>
-        <Slider 
-          className='slider'
-        />
+        <div className='slider-group'>
+          <p>{gameLength} Words</p>
+          <Slider 
+            className='slider'
+            min={20}
+            max={1000}
+            step={20}
+            value={gameLength}
+            onChange={handleSliderChange}
+          />
+        </div>
         <div className='top-buttons'>
           <button className='easy' onClick={() => setMode(100)}>Easy</button>
           <button className='medium' onClick={() => setMode(250)}>Medium</button>

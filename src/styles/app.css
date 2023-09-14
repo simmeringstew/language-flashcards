@@ -12,13 +12,13 @@
     gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
-    'slider slider slider'
+    'slider-group slider-group slider-group'
     'top-buttons top-buttons top-buttons'
     'bottom-buttons bottom-buttons bottom-buttons';
 }
 
-.slider {
-    grid-area: slider;
+.slider-group {
+    grid-area: slider-group;
 }
 
 .top-buttons {
