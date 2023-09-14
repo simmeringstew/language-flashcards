@@ -31,12 +31,17 @@ const App = () => {
     return array;
   }
 
-  const next = () => {
-    if (words.length === 1) {
-      setWords(null);
-      return;
+  const next = (gotIt) => {
+    if (gotIt) {
+      if (words.length === 1) {
+        setWords(null);
+      } else {
+        setWords(words.slice(1));
+      }
+    } else {
+      const [first, ...rest] = words;
+      setWords([...rest, first]);
     }
-    setWords(words.slice(1));
   }
 
   return (

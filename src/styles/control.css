@@ -1,11 +1,16 @@
-.next-wrapper {
+.control-wrapper {
     margin-top: 3rem;
     display: flex;
     justify-content: center;
+    gap: 1rem;
 }
 
-.next {
+.correct, .wrong {
     border: 1px solid #42a5f5;
     background-color: transparent;
     color: var(--clr-text-primary-light);
+}
+
+.wrong {
+    border-color: #d32f2f;
 }

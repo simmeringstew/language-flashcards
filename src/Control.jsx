@@ -6,8 +6,9 @@ const Control = ({ words, next }) => {
     }
 
     return (
-        <div className='next-wrapper'>
-            <button className='next' onClick={() => next()}>Next</button>
+        <div className='control-wrapper'>
+            <button className='wrong' onClick={() => next(false)}>Wrong</button>
+            <button className='correct' onClick={() => next(true)}>Correct</button>
         </div>
     );
 }
