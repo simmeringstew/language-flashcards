@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Card from './Card';
-import Next from './Next';
+import Control from './Control';
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 import './styles/app.css';
@@ -42,7 +42,7 @@ const App = () => {
   return (
     <div className='container'>
       <Card words={words} />
-      <Next words={words} next={next} />
+      <Control words={words} next={next} />
       <div className='button-group'>
         <div className='slider-group'>
           <p>{gameLength} Words</p>

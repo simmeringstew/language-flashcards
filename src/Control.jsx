@@ -1,6 +1,6 @@
-import './styles/next.css';
+import './styles/control.css';
 
-const Next = ({ words, next }) => {
+const Control = ({ words, next }) => {
     if (!words) {
         return;
     }
@@ -12,4 +12,4 @@ const Next = ({ words, next }) => {
     );
 }
 
-export default Next;
+export default Control;
