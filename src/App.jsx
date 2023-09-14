@@ -66,14 +66,14 @@ const App = () => {
           />
         </div>
         <div className='top-buttons'>
-          <button className='easy' onClick={() => setMode(100)}>Easy</button>
-          <button className='medium' onClick={() => setMode(250)}>Medium</button>
-          <button className='hard' onClick={() => setMode(500)}>Hard</button>
+          <button className='easy' onClick={() => setGameLength(100)}>Easy</button>
+          <button className='medium' onClick={() => setGameLength(250)}>Medium</button>
+          <button className='hard' onClick={() => setGameLength(500)}>Hard</button>
         </div>
         <div className='bottom-buttons'>
-          <button className='advanced' onClick={() => setMode(1000)}>Advanced</button>
-          <button className='phrases' onClick={() => setMode(1)}>Phrases</button>
-          <button className='reset' onClick={() => setMode(null)}>Reset</button>
+          <button className='advanced' onClick={() => setGameLength(1000)}>Advanced</button>
+          <button className='phrases' onClick={() => setGameLength(1)}>Phrases</button>
+          <button className='start'>Start</button>
         </div>
       </div>
     </div>
