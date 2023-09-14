@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Card from './Card';
 import Next from './Next';
+import Slider from 'rc-slider';
+import 'rc-slider/assets/index.css';
 import './styles/app.css';
 import wordList from './assets/common-words.json';
 
@@ -47,12 +49,19 @@ const App = () => {
       <Card words={words} />
       <Next words={words} next={next} />
       <div className='button-group'>
-        <button className='easy' onClick={() => setMode(100)}>Easy</button>
-        <button className='medium' onClick={() => setMode(250)}>Medium</button>
-        <button className='hard' onClick={() => setMode(500)}>Hard</button>
-        <button className='advanced' onClick={() => setMode(1000)}>Advanced</button>
-        <button className='phrases' onClick={() => setMode(1)}>Phrases</button>
-        <button className='reset' onClick={() => setMode(null)}>Reset</button>
+        <Slider 
+          className='slider'
+        />
+        <div className='top-buttons'>
+          <button className='easy' onClick={() => setMode(100)}>Easy</button>
+          <button className='medium' onClick={() => setMode(250)}>Medium</button>
+          <button className='hard' onClick={() => setMode(500)}>Hard</button>
+        </div>
+        <div className='bottom-buttons'>
+          <button className='advanced' onClick={() => setMode(1000)}>Advanced</button>
+          <button className='phrases' onClick={() => setMode(1)}>Phrases</button>
+          <button className='reset' onClick={() => setMode(null)}>Reset</button>
+        </div>
       </div>
     </div>
   );

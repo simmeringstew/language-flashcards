@@ -9,7 +9,27 @@
     position: absolute;
     bottom: 1rem;
     display: grid;
+    gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    'slider slider slider'
+    'top-buttons top-buttons top-buttons'
+    'bottom-buttons bottom-buttons bottom-buttons';
+}
+
+.slider {
+    grid-area: slider;
+}
+
+.top-buttons {
+    grid-area: top-buttons;
+    display: flex;
+    gap: 1rem;
+}
+
+.bottom-buttons {
+    grid-area: bottom-buttons;
+    display: flex;
     gap: 1rem;
 }
 
@@ -22,6 +42,7 @@ button {
     min-width: 2.25em;
     min-height: 2.25em;
     color: #fff;
+    width: 6rem;
 }
 
 button:hover, button:focus {
