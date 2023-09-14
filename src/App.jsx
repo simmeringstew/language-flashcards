@@ -16,18 +16,8 @@ const App = () => {
     setGameLength(value);
   }
 
-  const setMode = (gameLength) => {
-    if (!gameLength) {
-      setWords(null);
-      return;
-    }
-    else if (gameLength === 1) {
-      // set words to the phrases
-      // shuffle here as well
-      return;
-    } else {
-      setWords(shuffle(fullWords.slice(0, gameLength)));
-    } 
+  const start = () => {
+    setWords(shuffle(fullWords.slice(0, gameLength)));
   }
 
   const shuffle = (array) => {
@@ -72,8 +62,9 @@ const App = () => {
         </div>
         <div className='bottom-buttons'>
           <button className='advanced' onClick={() => setGameLength(1000)}>Advanced</button>
-          <button className='phrases' onClick={() => setGameLength(1)}>Phrases</button>
-          <button className='start'>Start</button>
+          {/* add later phrases will pull a seperate json file and start the game on its own */}
+          <button className='phrases'>Phrases</button>
+          <button className='start' onClick={start}>Start</button>
         </div>
       </div>
     </div>
