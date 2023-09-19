@@ -12,6 +12,12 @@ const App = () => {
   const [words, setWords] = useState(null);
   const [gameLength, setGameLength] = useState(20);
 
+  const handleInputChange = (value) => {
+    if (/^\d*$/.test(value) && value >= 1 && value <= 1000) {
+      setGameLength(value);
+    }
+  }
+
   const handleSliderChange = (value) => {
     setGameLength(value);
   }
@@ -50,7 +56,17 @@ const App = () => {
       <Control words={words} next={next} />
       <div className='button-group'>
         <div className='slider-group'>
-          <p>{gameLength} Words</p>
+          <div className='word-count'>
+            <input
+              id='word-counter'
+              type='number' 
+              value={gameLength}
+              onChange={e => handleInputChange(e.target.value)}
+            />
+            <label htmlFor='word-counter'>
+              {gameLength > 1 ? 'words' : 'word'}
+            </label>
+          </div>
           <Slider 
             className='slider'
             min={20}
