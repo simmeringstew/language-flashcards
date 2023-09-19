@@ -93,3 +93,12 @@ button:hover, button:focus {
 .start {
     background-color: #121212;
 }
+
+@media screen and (min-width: 968px) {
+    .button-group {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'slider-group slider-group slider-group slider-group slider-group slider-group'
+        'top-buttons top-buttons top-buttons bottom-buttons bottom-buttons bottom-buttons';
+    }
+}
