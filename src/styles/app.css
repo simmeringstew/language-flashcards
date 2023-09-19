@@ -5,6 +5,26 @@
     align-items: center;
 }
 
+.word-count {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.word-count > input {
+    width: 4rem;
+    border: 1px solid black;
+    padding: 0 0.25rem;
+    border-radius: 4px;
+}
+
+.word-count > input:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 1px #abe2fb;
+}
+
 .button-group {
     position: absolute;
     bottom: 1rem;
