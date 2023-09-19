@@ -5,6 +5,7 @@ import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 import './styles/app.css';
 import wordList from './assets/common-words.json';
+import phrases from './assets/phrases.json';
 
 const App = () => {
 
@@ -23,6 +24,10 @@ const App = () => {
   }
 
   const start = () => {
+    if (!gameLength) {
+      setWords(shuffle(phrases));
+      return;
+    }
     setWords(shuffle(fullWords.slice(0, gameLength)));
   }
 
@@ -83,8 +88,7 @@ const App = () => {
         </div>
         <div className='bottom-buttons'>
           <button className='advanced' onClick={() => setGameLength(1000)}>Advanced</button>
-          {/* add later phrases will pull a seperate json file and start the game on its own */}
-          <button className='phrases'>Phrases</button>
+          <button className='phrases' onClick={() => setGameLength(0)}>Phrases</button>
           <button className='start' onClick={start}>Start</button>
         </div>
       </div>

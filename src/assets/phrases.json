@@ -1,0 +1,190 @@
+[
+    {
+        "dutch": ["goedemorgen"],
+        "english": ["good morning"]
+    },
+    {
+        "dutch": ["goedenmiddag"],
+        "english": ["good afternoon"]
+    },
+    {
+        "dutch": ["goedenavond"],
+        "english": ["good evening"]
+    },
+    {
+        "dutch": ["goededag"],
+        "english": ["good day"]
+    },
+    {
+        "dutch": ["goedenacht"],
+        "english": ["good night"]
+    },
+    {
+        "dutch": ["welterusten"],
+        "english": ["rest well"]
+    },
+    {
+        "dutch": ["hoe gaat het"],
+        "english": ["how are you?"]
+    },
+    {
+        "dutch": ["het gaat goed met me, dank je"],
+        "english": ["I am fine, thanks"]
+    },
+    {
+        "dutch": ["en met jou?"],
+        "english": ["and you?"]
+    },
+    {
+        "dutch": ["graag gedaan"],
+        "english": ["you're welcome"]
+    },
+    {
+        "dutch": ["heb je nieuws?"],
+        "english": ["what's new?"]
+    },
+    {
+        "dutch": ["niets speciaals"],
+        "english": ["nothing much"]
+    },
+    {
+        "dutch": ["lang niet gezien"],
+        "english": ["long time no see"]
+    },
+    {
+        "dutch": ["wat is je naam?"],
+        "english": ["what is your name?"]
+    },
+    {
+        "dutch": ["mijn naam is"],
+        "english": ["my name is"]
+    },
+    {
+        "dutch": ["aangenaam"],
+        "english": ["nice to meet you"]
+    },
+    {
+        "dutch": ["tot straks"],
+        "english": ["see you later"]
+    },
+    {
+        "dutch": ["tot gauw"],
+        "english": ["see you soon"]
+    },
+    {
+        "dutch": ["tot zo"],
+        "english": ["see you"]
+    },
+    {
+        "dutch": ["van waar ben je?"],
+        "english": ["where are you from?"]
+    },
+    {
+        "dutch": ["ik ben van"],
+        "english": ["I come from"]
+    },
+    {
+        "dutch": ["wat is je beroep?"],
+        "english": ["what do you do for a living?"]
+    },
+    {
+        "dutch": ["ik werk als"],
+        "english": ["I work as"]
+    },
+    {
+        "dutch": ["geen probleem"],
+        "english": ["no problem"]
+    },
+    {
+        "dutch": ["hoe oud ben je?"],
+        "english": ["how old are you?"]
+    },
+    {
+        "dutch": ["kan je wat langzamer praten, alsjeblieft?"],
+        "english": ["Can you talk a bit slower, please?"]
+    },
+    {
+        "dutch": ["kan je dat even herhalen, alsjeblieft?"],
+        "english": ["Can you say that again?"]
+    },
+    {
+        "dutch": ["ik leer nederlands"],
+        "english": ["I am learning dutch"]
+    },
+    {
+        "dutch": ["je kunt nederlands met me praten"],
+        "english": ["you can speak to me in dutch"]
+    },
+    {
+        "dutch": ["hoe zeg je ... in het nederlands?"],
+        "english": ["how do you say ... in dutch?"]
+    },
+    {
+        "dutch": ["wat betekent ... in het Engels?"],
+        "english": ["what does ... mean in English?"]
+    },
+    {
+        "dutch": ["hoe heet dit in het nederlands?"],
+        "english": ["what's that called in dutch?"]
+    },
+    {
+        "dutch": ["ik wil graag"],
+        "english": ["I would like"]
+    },
+    {
+        "dutch": ["mag ik een"],
+        "english": ["may I have a"]
+    },
+    {
+        "dutch": ["nog een X, graag"],
+        "english": ["another X, please"]
+    },
+    {
+        "dutch": ["hebben jullie een engelstagile menu?"],
+        "english": ["do you have an english menu?"]
+    },
+    {
+        "dutch": ["waar is de WC/het toilet?"],
+        "english": ["where is the restroom?"]
+    },
+    {
+        "dutch": ["de rekening, graag"],
+        "english": ["the check please"]
+    },
+    {
+        "dutch": ["veel geluk"],
+        "english": ["good luck"]
+    },
+    {
+        "dutch": ["prost"],
+        "english": ["cheers"]
+    },
+    {
+        "dutch": ["begrijpt je?"],
+        "english": ["do you understand?"]
+    },
+    {
+        "dutch": ["ik begrijp het"],
+        "english": ["I understand"]
+    },
+    {
+        "dutch": ["misschien"],
+        "english": ["maybe"]
+    },
+    {
+        "dutch": ["ik weet het niet"],
+        "english": ["I don't know"]
+    },
+    {
+        "dutch": ["hoeveel kost dit?"],
+        "english": ["how much is this?"]
+    },
+    {
+        "dutch": ["ik hou van je"],
+        "english": ["I love you"]
+    },
+    {
+        "dutch": ["beterschap"],
+        "english": ["get well soon"]
+    }
+]
