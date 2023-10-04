@@ -14,7 +14,7 @@ const App = () => {
   const [gameLength, setGameLength] = useState(20);
 
   const handleInputChange = (value) => {
-    if (/^\d*$/.test(value) && value >= 1 && value <= 1000) {
+    if (/^\d*$/.test(value) && value >= 1 && value <= 400) {
       setGameLength(value);
     }
   }
@@ -75,19 +75,19 @@ const App = () => {
           <Slider 
             className='slider'
             min={20}
-            max={1000}
+            max={400}
             step={20}
             value={gameLength}
             onChange={handleSliderChange}
           />
         </div>
         <div className='top-buttons'>
-          <button className='easy' onClick={() => setGameLength(100)}>Easy</button>
-          <button className='medium' onClick={() => setGameLength(250)}>Medium</button>
-          <button className='hard' onClick={() => setGameLength(500)}>Hard</button>
+          <button className='easy' onClick={() => setGameLength(50)}>Easy</button>
+          <button className='medium' onClick={() => setGameLength(100)}>Medium</button>
+          <button className='hard' onClick={() => setGameLength(200)}>Hard</button>
         </div>
         <div className='bottom-buttons'>
-          <button className='advanced' onClick={() => setGameLength(1000)}>Advanced</button>
+          <button className='advanced' onClick={() => setGameLength(400)}>Advanced</button>
           <button className='phrases' onClick={() => setGameLength(0)}>Phrases</button>
           <button className='start' onClick={start}>Start</button>
         </div>
